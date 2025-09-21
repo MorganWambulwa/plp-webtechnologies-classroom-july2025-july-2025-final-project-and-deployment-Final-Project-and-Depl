@@ -1,90 +1,46 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Morgan Wambulwa Portfolio
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+## Purpose
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+This is the **portfolio website** of **Morgan Wambulwa**, showcasing skills, services, and projects. It serves as an online representation of my expertise in data analysis, client service, and development. It includes various sections such as:
 
----
+- **Home**: Introduction to who I am.
+- **About**: A deeper dive into my background, skills, and career.
+- **Portfolio**: A showcase of my projects in data analysis, software development, and client service.
+- **Services**: The services I offer, including data analysis, dashboard development, and more.
+- **Contact**: A form for getting in touch with me directly.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+This website is intended to be a professional showcase of my capabilities, providing visitors with a clear view of my experience and how they can reach out for collaboration or consulting.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## Project Structure
 
-Using your plan, begin building:
+The project is organized as follows:
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+### Root Directory
 
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+- **`index.html`**: The main landing page, providing an overview of my skills and offering links to other pages.
+- **`about.html`**: A detailed page about me, my skills, and background.
+- **`portfolio.html`**: Displays a collection of featured projects, including data analysis dashboards and development work.
+- **`services.html`**: Lists the professional services I offer with descriptions.
+- **`contact.html`**: Contains a contact form and additional ways to get in touch with me (email, phone, etc.).
+- **`css`**: Contains the main styling for the website, implementing a clean and modern design with a mobile-first approach.
+- **`js`**: Includes JavaScript functions for interactive elements, like the mobile navigation toggle and form validation.
+- **`images/`**: Contains all images used in the website, such as profile pictures and project images.
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## Live URL
 
-Once your project is complete, choose a method to **host your site online**.
+You can view the live version of this portfolio at the following URL:
 
-You can use:
+[**Live Portfolio**](https://morganwambulwa.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+## Technologies Used
 
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- **HTML**: For the structure and content of the web pages.
+- **CSS**: For styling, including a responsive and user-friendly layout.
+- **JavaScript**: For adding interactive elements like navigation toggles and form validation.
+- **Font Awesome**: For icons used throughout the website.
+- **Responsive Design**: The website is built to be mobile-first and responsive across all screen sizes.
