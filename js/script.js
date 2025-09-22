@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
   navToggle.forEach(btn => {
     btn.addEventListener('click', function () {
       const isOpen = nav.classList.toggle('open');
+     const mobileNav = document.getElementsByClassName('mobile-nav');
+     mobileNav[0].style.display =  isOpen ? 'block' : 'none';
       // animate hamburger
       const ham = this.querySelector('.hamburger');
       if (ham) {
@@ -17,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
           ham.style.transform = 'rotate(90deg)';
         } else {
           ham.style.transform = '';
+          mobileNav[0].style.display = 'none';
         }
       }
     });
