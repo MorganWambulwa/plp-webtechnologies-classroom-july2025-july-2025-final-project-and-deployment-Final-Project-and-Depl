@@ -3,9 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact — Morgan Wambulwa</title>
+  <title>About — Morgan Wambulwa</title>
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <div class="site">
@@ -24,62 +23,88 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
+
         <nav class="nav" id="nav">
           <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" class="active">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main class="main container">
-      <section class="contact fade-in">
-        <h1 class="section-title">Contact</h1>
+      <section class="about-intro fade-in">
+        <div class="about-grid">
+          <div class="about-photo">
+            <img src="images/Passport Photo Morgan.jpg" alt="Morgan portrait" />
+          </div>
 
-        <div class="contact-grid">
-          <form id="contactForm" class="contact-form" novalidate>
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required placeholder="Your name" />
-
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" required placeholder="you@example.com" />
-
-            <label for="subject">Subject</label>
-            <input id="subject" name="subject" type="text" required placeholder="Subject" />
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" required placeholder="Write your message"></textarea>
-
-            <button type="submit" class="btn">Send Message</button>
-
-            <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
-          </form>
-
-          <aside class="contact-details">
-            <h3>Direct Contact</h3>
-            <p>Email: <a href="mailto:morganwambulwa019@gmail.com">morganwambulwa019@gmail.com</a></p>
-            <p>Phone: <a href="tel:+254794539704">+254794539704</a></p>
-
-            <h4>Find me</h4>
-            <p>
-              <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-              <a href="https://www.linkedin.com/in/morgan-wambulwa-a221b3284/" target="_blank" rel="noopener">LinkedIn</a>
+          <div class="about-text">
+            <h1>About Me</h1>
+            <p class="lead">
+              I am a passionate Full Stack Software Developer in training, specializing in the MERN stack and building efficient, user-friendly applications. Alongside this, I have a solid background in data analysis with experience in Excel dashboards, Power BI, SPSS and Stata. My skills include data cleaning, visualization and reporting to support decision-making. I am currently advancing in SQL and Python to enhance data manipulation, automation and analytics. I thrive at the intersection of software development and data analysis, creating practical solutions and actionable insights.
             </p>
-          </aside>
+
+            <a class="btn" href="contact.html">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills fade-in">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Programming & Development</h3>
+            <ul>
+                <li><strong>Web Development</strong> — HTML5, CSS, JavaScript</li>
+                <li><strong>Python</strong> — Web frameworks, Data Science, Libraries</li>
+                <li><strong>Database</strong> — SQL (MySQL)</li>
+                <li><strong>MERN Stack</strong> — in progress</li>
+            </ul>
+          </div>  
+          
+          <div class="skill-card">
+            <h3>Data Analysis Tools</h3>
+            <ul>
+              <li>Excel (PivotTables VLOOKUP Dashboards)</li>
+              <li>Power BI</li>
+              <li>SPSS</li>
+              <li>Stata</li>
+            </ul>
+          </div>
+          
+
+          <div class="skill-card">
+            <h3>Reporting & Presentation</h3>
+            <ul>
+              <li>Dashboards</li>
+              <li>Data storytelling</li>
+              <li>Report writing</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Data Management</h3>
+            <ul>
+              <li>Cleaning and validation</li>
+              <li>Performance tracking</li>
+              <li>Reporting</li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-        <div class="socials">
-            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/morgan-wambulwa-a221b3284/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="mailto:morganwambulwa019@gmail.com">Email</a>
-        </div>
+          <div class="socials">
+             <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+             <a href="https://www.linkedin.com/in/morgan-wambulwa-a221b3284/" target="_blank" rel="noopener">LinkedIn</a>
+             <a href="mailto:morganwambulwa019@gmail.com">Email</a>
+            </div>
 
       <div class="footer-bottom">
         <p>© 2025 Morgan Wambulwa. All rights reserved.</p>
