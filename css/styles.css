@@ -85,6 +85,13 @@ body{
   border-radius:8px;
   transition:background var(--transition), color var(--transition), transform var(--transition);
 }
+
+li a {
+  background:var(--cream);
+  color:var(--brown);
+  text-decoration: none;
+  font-weight: bold;
+}
 .nav-list a:hover,
 .nav-list a.active{
   background:var(--beige);
@@ -150,6 +157,31 @@ body{
   border-radius:14px;
   border:6px solid var(--beige);
   box-shadow:0 6px 20px rgba(107,79,58,0.08);
+}
+
+.mobile-nav {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 50px; /* Adjust based on header height */
+  background: var(--cream);
+  border: 1px solid var(--beige);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+  width: 100%;
+}
+
+mobilenav-list {
+  list-style: none !important;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+ ul {
+  list-style-type: none !important;
+  text-decoration: none !important;
 }
 
 /* Buttons */
@@ -268,6 +300,7 @@ body{
 @media(min-width:700px){
   .nav{ display:block }
   .nav-toggle{ display:none }
+  .mobile-nav { display: none !important; } /* Ensure mobile nav is hidden on larger screens */
 
   .hero-grid{
     grid-template-columns: 1fr 320px;
